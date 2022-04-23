@@ -1,0 +1,167 @@
+body {
+   background-color: rgb(20, 28, 37);
+   margin: 0;
+
+}
+
+.login {
+   
+   width: 70%;
+   box-sizing: border-box;
+   padding: 5%;
+   margin: auto;
+ }
+ .form:hover
+ {
+   
+   position: relative;
+   z-index: 1;
+   background: #12335c69;
+   border-radius: 30px;
+   
+   border: 1;
+   
+   margin: 0;
+   padding: 0px;
+   text-align: center;
+ }
+ 
+ .form {
+   border:1px solid rgba(192, 190, 168, 0.226);
+   position: relative;
+   z-index: 1;
+   background: #0c244169;
+   border-radius: 30px;
+   border: 1;
+   margin: 0;
+   padding: 0px;
+   text-align: center;
+ }
+ 
+ .form input {
+   outline: 0;
+   background: #a9b0b9;
+   width: 80%;
+   border: 1;
+   border-radius: 5px;
+   margin: 0 0 15px;
+   padding: 15px;
+   box-sizing: border-box;
+   font-size: 14px;
+   text-align: center;
+ }
+ 
+ 
+ .form input:focus {
+   background: #ecf0fd;
+   width: 90%;
+ }
+ 
+ 
+ .form button {
+   text-transform: uppercase;
+   outline: 0;
+   background: #89abd1;
+   width: 50%;
+   border: 0;
+   border-radius: 5px;
+   padding: 15px;
+   color: #1a1a1a;
+   font-size: 16px;
+   -webkit-transition: all 0.3 ease;
+   transition: all 0.3 ease;
+   cursor: pointer;
+ }
+ 
+ .form button:active 
+ {
+   width: 50%;
+   background: #a1a5aa;
+ }
+ .form button:hover {
+   width: 52%;
+   background: #cae2ff;
+ }
+ 
+ .form span {
+   font-size: 15px;
+   color: #f7f9ff;
+ }
+
+
+
+
+h2
+{
+   position: relative;
+   z-index: 1;
+   background-color: #17447aa2;
+   border-radius: 30px;
+   border: 1px;
+   border-color: #dfe3ee;
+   margin: 100px auto 100px;
+   padding: 0px;
+   text-align: center;
+
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   font-size:  25px;
+   font-weight: 200;
+   height: 70px;
+   width: 200px;
+   margin: 0;
+}
+
+
+p3 
+{
+
+   position: relative;
+   z-index: 1;
+   background-color: #17447aa2;
+   border-radius: 30px;
+   border: 1px;
+   border-color: #dfe3ee;
+   margin: 100px auto 100px;
+   padding: 0px;
+   text-align: center;
+
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   font-size:  25px;
+   font-weight: 200;
+   height: 170px;
+   width: 200px;
+   margin: 0;
+
+}
+
+p1 {
+   background-color: rgb(91, 91, 104);
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   font-size:  75px;
+   font-weight: 200;
+   opacity: 0;
+   height: 170px;
+   width: 100px;
+   margin: 0;
+}
+
+
+p2 {
+   background-color: rgb(104, 104, 112);
+   display: inline-flex;
+   align-items: center;
+   opacity: 1;
+   justify-content: center;
+   font-size:  45px;
+   font-weight: 200;
+   height: 100px;
+   width: 300px;
+   margin: 0;
+}
+

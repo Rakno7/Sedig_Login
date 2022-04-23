@@ -1,0 +1,66 @@
+<!--Bradley Alex Sedig-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!--Linking css document-->
+    <link rel="stylesheet" href="Style.css" />
+</head>
+<!--Center Items below-->
+<center>
+<body>
+    
+    <h1 style="color: azure;"> </h1>
+   <!--Section will contain the entire form so I can replace it later-->
+<section class='login' id='login'>
+
+    <!--Classes are set to reference these areas in css styles-->
+ <div class="login">
+   <div class="form">
+    <!--Create a form-->
+     <form class="login-form" id="loginForm">
+         <!--Display Instructions at the top of the form-->
+      <span class="Message">Please enter user info</span>
+      <!--Create a linebreak-->
+      <br>
+      <br>
+      <!--Input field which takes in text. and has a placeholder as a value when not interacted with-->
+      <!--Each input field has a required pattern which defines [the type of character accepted] and the range of total character accepted-->
+      <!--if the required pattern isnt met on submit, a text box will let the user know where the problem is-->
+        <input type="text" placeholder="First name" id="Fname" 
+        required pattern="[a-z]{1,20}$" required/> 
+         <br>
+        <input type="text" placeholder="Last Name" id="Lname"
+        required pattern="[a-z]{1,20}$" required/> 
+        <br>
+        <input type="number" placeholder="Badge#" id="Bnum" style="width: 45%;"
+        required pattern="[0-9]{1,3}$" required/> 
+        <br>
+        <br>
+        <!--The form has one button, which will submit each of the fields in the form all at once-->
+        <button id = "LaunchButton" value="Start"  type="submit">login</button>
+        <br>
+        <br>
+        <br>
+   
+    </form>
+    <!--End of Form-->
+  </div>
+ </div>
+</section>
+<!--End of Section containing the login area-->
+    <br>
+    <br>
+    <br>
+
+   <!--Linking javascript file-->
+<script src="main.js"></script> 
+</body>
+</center>
+
+</html>
